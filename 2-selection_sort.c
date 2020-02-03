@@ -14,7 +14,7 @@ int a;
 int b;
 if (!array || size == 0 || size == 1)
 return;
-for (i = 0; i < size -1; i++)
+for (i = 0; i < size - 1; i++)
 {
 a = array[i];
 b = a;
@@ -26,7 +26,7 @@ b = array[j];
 k = j;
 }
 }
-if ( a != b)
+if (a != b)
 {
 array[k] = a;
 array[i] = b;
